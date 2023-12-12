@@ -1,7 +1,7 @@
 
 # Pyro-Smoke Guard: A Comprehensive Fire and Smoke Detection System
 
-Welcome to Pyro-Smoke Guard, a unified solution that combines two powerful object detection systems for enhanced fire and smoke detection: the YOLO Object Detection System and Pyro-Smoke Guard. This repository leverages multiple YOLO models, including YOLOv5, YOLOv8, and YOLOX, alongside a Convolutional Neural Network (CNN) based on the AlexNet architecture. Together, these components create a robust and versatile system capable of accurate detection and real-time alerting.
+Welcome to Pyro-Smoke Guard, a unified solution that combines two powerful object detection systems for enhanced fire and smoke detection: the YOLO Object Detection System and Convolutional Neural Network (CNN) based on the AlexNet architecture. This repository leverages a Convolutional Neural Network (CNN) based on the AlexNet architecture alongside multiple YOLO models, including YOLOv5, YOLOv8, and YOLOX. Together, these components create a robust and versatile system capable of accurate detection and real-time alerting.
 
 ### Pyro-Smoke Guard
 Pyro-Smoke Guard employs a CNN based on the AlexNet architecture to classify images into three categories: Fire, Neutral, and Smoke. The system is trained on a dataset comprising images of fire, smoke, and neutral scenes.
@@ -138,6 +138,9 @@ Tests: Holds sample images for testing.
 Results: Contains processed images and visualizations.
 
 objectDetection: The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
+
+
+web: code for web app.
 
 
 ### Acknowledgments
