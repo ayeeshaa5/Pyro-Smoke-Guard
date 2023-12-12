@@ -138,6 +138,7 @@ Tests: Holds sample images for testing.
 Results: Contains processed images and visualizations.
 
 objectDetection: The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
+web: code for web app.
 
 
 ### Acknowledgments
