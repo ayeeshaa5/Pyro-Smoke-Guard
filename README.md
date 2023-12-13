@@ -35,10 +35,6 @@ The system consists of the following key components:
 #### Training
 To train the model, run the train_model.py script. Specify the paths to the training and testing datasets, and the number of epochs.
 
-```bash
-  python train_model.py --train_data_dir './Datasets/Training_data' --test_data_dir './Datasets/Test_data' --n_epochs 20
-
-```
 
 #### Inference
 
