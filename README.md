@@ -1,7 +1,7 @@
 
 # Pyro-Smoke Guard: A Comprehensive Fire and Smoke Detection System
 
-Welcome to Pyro-Smoke Guard, a unified solution that combines two powerful object detection systems for enhanced fire and smoke detection: the YOLO Object Detection System and Convolutional Neural Network (CNN) based on the AlexNet architecture. This repository leverages a Convolutional Neural Network (CNN) based on the AlexNet architecture alongside multiple YOLO models, including YOLOv5, YOLOv8, and YOLOX. Together, these components create a robust and versatile system capable of accurate detection and real-time alerting.
+Welcome to Pyro-Smoke Guard, a unified solution that combines two powerful object detection systems for enhanced fire and smoke detection: the YOLO Object Detection System and Pyro-Smoke Guard. This repository leverages multiple YOLO models, including YOLOv5, YOLOv8, and YOLOX, alongside a Convolutional Neural Network (CNN) based on the AlexNet architecture. Together, these components create a robust and versatile system capable of accurate detection and real-time alerting.
 
 ### Pyro-Smoke Guard
 Pyro-Smoke Guard employs a CNN based on the AlexNet architecture to classify images into three categories: Fire, Neutral, and Smoke. The system is trained on a dataset comprising images of fire, smoke, and neutral scenes.
@@ -35,6 +35,10 @@ The system consists of the following key components:
 #### Training
 To train the model, run the train_model.py script. Specify the paths to the training and testing datasets, and the number of epochs.
 
+```bash
+  python train_model.py --train_data_dir './Datasets/Training_data' --test_data_dir './Datasets/Test_data' --n_epochs 20
+
+```
 
 #### Inference
 
@@ -83,6 +87,16 @@ pip install -r requirements.txt
 ## YOLO Object Detection System
 ### Overview
 The YOLO Object Detection System integrates multiple YOLO models, including YOLOv5, YOLOv8, and YOLOX architectures, for smoke and fire detection in various scenarios. This system ensures adaptability and accuracy across different environments.
+
+#### Datasets Used
+[COCO128 Dataset for fire and smoke detection](https://www.kaggle.com/datasets/deeplearn1/fire-and-smoke-bbox-coco-dateset
+)
+
+[Wildfire Smoke for smoke detection](https://public.roboflow.com/object-detection/wildfire-smoke
+)
+
+[Continuous Fire for fire detection](https://universe.roboflow.com/-jwzpw/continuous_fire
+)
 
 #### Getting Started
 Clone the YOLOv5 repository and install dependencies:
@@ -134,9 +148,6 @@ Tests: Holds sample images for testing.
 Results: Contains processed images and visualizations.
 
 objectDetection: The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
-
-
-web: code for web app.
 
 
 ### Acknowledgments
