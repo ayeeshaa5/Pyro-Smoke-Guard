@@ -139,15 +139,13 @@ In the quest for achieving unparalleled excellence in object detection, our syst
 ### Project Structure
 The project structure is organized for clarity and ease of use. Key directories include:
 
-Datasets: This directory holds datasets specifically for training and testing the AlexNet model for image classification.
+[Datasets](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/Datasets): This directory holds datasets specifically for training and testing the AlexNet model for image classification.
 
-Models: Stores the trained AlexNet model for image classification.
+[Tests](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/Tests): Holds sample images for testing.
 
-Tests: Holds sample images for testing.
+[Results](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/Results): Contains processed images and visualizations.
 
-Results: Contains processed images and visualizations.
-
-objectDetection: The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
+[objectDetestion](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/objectDetection): The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
 
 
 ### Acknowledgments
