@@ -154,7 +154,7 @@ The project structure is organized for clarity and ease of use. Key directories 
 - YOLOv8: [Link to YOLOv8 Repository](https://github.com/ultralytics/ultralytics)
 - Telegram API: [Link to Telegram API Documentation](https://core.telegram.org/api)
 
-- ### Contact Us 
+ ### Contact Us 
  Ayesha Mubashir [ayeshamubashir65@gmail.com](ayeshamubashir65@gmail.com)
  
  Humera Akmal [humeraakmal2001@gmail.com](humeraakmal2001@gmail.com)
