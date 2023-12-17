@@ -145,7 +145,7 @@ The project structure is organized for clarity and ease of use. Key directories 
 
 [Results](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/Results): Contains processed images and visualizations.
 
-[objectDetestion](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/objectDetection): The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
+[objectDetection](https://github.com/ayeeshaa5/Pyro-Smoke-Guard/tree/main/objectDetection): The Object Detection directory is dedicated to datasets and models pertaining to the broader field of object detection. It houses resources for advancing beyond image classification.
 
 
 ### Acknowledgments
